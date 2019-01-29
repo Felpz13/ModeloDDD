@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using ProjetoModeloDDD.Application.Interface;
 using ProjetoModeloDDD.Domain.Interfaces.Services;
 
+//teste
+
 namespace ProjetoModeloDDD.Application
 {
     public class AppServiceBase<TEntity> : IDisposable, IAppServiceBase<TEntity> where TEntity : class
